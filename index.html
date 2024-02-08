@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .sidebar {
+        background-color: #333;
+        color: #fff;
+        width: 250px;
+        padding: 20px;
+    }
+
+    .main-content {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .menu-item {
+        margin-bottom: 10px;
+    }
+
+    .menu-item a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .menu-item a:hover {
+        background-color: #555;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <div class="menu-item">
+            <a href="#">Inicio</a>
+        </div>
+        <div class="menu-item">
+            <a href="#">Perfil</a>
+        </div>
+        <div class="menu-item">
+            <a href="#">Configuración</a>
+        </div>
+        <div class="menu-item">
+            <a href="#">Cerrar Sesión</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>Bienvenido al Dashboard</h1>
+        <p>¡Aquí puedes administrar tu cuenta!</p>
+    </div>
+</div>
+
+</body>
+</html>
